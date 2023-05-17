@@ -35,7 +35,7 @@ header {
     background-image: linear-gradient(to bottom, var(--cor2), var(--cor5));
     text-align: center;
     min-height: 150px;
-    padding-top: 30px;
+    padding-top: 40px;
     padding-bottom: 30px;
     padding-left: -10px;
     margin: -10px;
@@ -82,7 +82,7 @@ main {
     max-width: 800px;
     margin: auto;
     padding: 20px;
-    margin-bottom:40px;
+    margin-bottom:30px;
     border-radius:  0px 0px 5px 5px;
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.568);
 }
@@ -124,9 +124,19 @@ main p {
     text-align: justify;
     line-height: 2em;  /* é a espaço (altura) de uma linha á outra */
 }
+main img {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
 p {
     font-family: var(--fonte-padrao);
     margin: 15px;
+}
+main img.pequena {
+    display: block;
+    margin:auto;
+    max-width: 350px;
 }
 
 aside {
