@@ -142,10 +142,9 @@ ul > li {
     font-family: var(--fonte-padrao);
     
 }
-main  {
+main > img {
     display: block;
     margin: auto;
-    max-width: 400px;
     
 }
 
