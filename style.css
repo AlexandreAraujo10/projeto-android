@@ -129,14 +129,15 @@ main img {
     margin: auto;
     width: 100%;
 }
-p {
-    font-family: var(--fonte-padrao);
-    margin: 15px;
-}
 main img.pequena {
     display: block;
     margin:auto;
     max-width: 350px;
+}
+
+p {
+    font-family: var(--fonte-padrao);
+    margin: 15px;
 }
 
 aside {
@@ -155,7 +156,6 @@ ul > li {
 main > img {
     display: block;
     margin: auto;
-    
 }
 
 footer {
